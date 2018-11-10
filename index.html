@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>兰蔻官网</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/iconfont/iconfont.css">
+	<script type="text/javascript" src="js/jquery-2.1.4/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/bootstrap3.2.2/css/bootstrap.min.css">
+	<script type="text/javascript" src="js/bootstrap3.2.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/vue.js"></script>
+</head>
+<body>
+	<div class="lancome">
+	<!-- 头部开始 -->
+		<div class="lan-header" id="top">
+			<div class="logo">
+				<div class="left-logo">
+					<i class="iconfont icon-dingwei"></i>
+					<a href="#">专柜查询</a>
+					<span>|</span>
+					<a href="#">客服中心</a>
+				</div>
+				<div class="center-logo">
+					<img src='images/logo.png' alt="">
+				</div>
+				<div class="right-logo">
+					<ul>
+						<li><a href="#">全部产品</a></li>
+						<li>|</li>
+						<li><a href="#">订阅电子杂志</a></li>
+						<li>|</li>
+						<li><a href="#">登录/注册</a></li>
+						<li>|</li>
+						<li>
+							<a href="#">购物袋</a>
+							<i class='iconfont icon-bag'></i>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 顶部导航 -->
+			<div class="nav">
+				<ul class="navbar-top">
+					<li><a href="#">首页</a></li>
+					<li><a href="#">护肤</a></li>
+					<li><a href="#">彩妆</a></li>
+					<li><a href="#">香水</a></li>
+					<li><a href="#">特惠礼盒</a></li>
+					<li><a href="#">双11现货专场</a></li>
+					<li><a href="#">幸运抽奖</a></li>
+					<li><a href="#">明星产品</a></li>
+					<li><a href="#">官网购物理由</a></li>
+				</ul>
+				<div class="navbar-search">
+					<input type="text" placeholder='196朱砂橘'>
+					<button><i class='iconfont icon-search'></i></button>
+				</div>
+			</div>
+		</div>
+		<!-- body开始 -->
+		<div class="lan-body">
+			<!-- 轮播开始 -->
+			<div  id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<!-- 按钮 -->
+				<ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+				</ol>
+				<!-- 轮播图片 -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="images/1.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="images/2.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="images/3.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="images/4.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="images/5.jpg" alt="">
+					</div>
+				</div>
+			</div>
+			<!-- 选项卡开始 -->
+			<div class="goods"  id="tab">
+				<ul class="navTabs">
+					<li class="tab-one"><a href="#tab">畅销产品</a></li>
+					<li class='tab-two'><a href="#tab">明星推荐</a></li>
+					<li class="tab-three"><a href="#tab">特惠礼盒</a></li>
+				</ul>
+				<div class="tabBox">
+					<ul class="tabContent">
+						<li class="tabOne">
+							<img src="images/11.jpg" alt="">
+							<p>礼盒</p>
+							<p>明星小黑瓶肌底礼盒</p>
+							<p>不见年龄 只见年轻</p>
+							<div class="tabText">
+								<span>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+								</span>
+								<span>|</span>
+								<span>￥760</span>
+							</div>
+						</li>
+						<li class="tabTwo">
+							<img src="images/11.jpg" alt="">
+							<p>礼盒</p>
+							<p>明星小黑瓶肌底礼盒</p>
+							<p>不见年龄 只见年轻</p>
+							<div class="tabText">
+								<span>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+								</span>
+								<span>|</span>
+								<span>￥760</span>
+							</div>
+						</li>
+						<li class="tabThree">
+							<img src="images/11.jpg" alt="">
+							<p>礼盒</p>
+							<p>明星小黑瓶肌底礼盒</p>
+							<p>不见年龄 只见年轻</p>
+							<div class="tabText">
+								<span>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+								</span>
+								<span>|</span>
+								<span>￥760</span>
+							</div>
+						</li>
+						<li class="tabFour">
+							<img src="images/11.jpg" alt="">
+							<p>礼盒</p>
+							<p>明星小黑瓶肌底礼盒</p>
+							<p>不见年龄 只见年轻</p>
+							<div class="tabText">
+								<span>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+								</span>
+								<span>|</span>
+								<span>￥760</span>
+							</div>
+						</li>
+						<!-- 第二组 -->
+						<li class="tabOne">
+							<img src="images/12.jpg" alt="">
+							<p>礼盒</p>
+							<p>明星小黑瓶肌底礼盒</p>
+							<p>不见年龄 只见年轻</p>
+							<div class="tabText">
+								<span>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+								</span>
+								<span>|</span>
+								<span>￥760</span>
+							</div>
+						</li>
+						<li class="tabTwo">
+							<img src="images/12.jpg" alt="">
+							<p>礼盒</p>
+							<p>明星小黑瓶肌底礼盒</p>
+							<p>不见年龄 只见年轻</p>
+							<div class="tabText">
+								<span>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+								</span>
+								<span>|</span>
+								<span>￥760</span>
+							</div>
+						</li>
+						<li class="tabThree">
+							<img src="images/12.jpg" alt="">
+							<p>礼盒</p>
+							<p>明星小黑瓶肌底礼盒</p>
+							<p>不见年龄 只见年轻</p>
+							<div class="tabText">
+								<span>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+								</span>
+								<span>|</span>
+								<span>￥760</span>
+							</div>
+						</li>
+						<li class="tabFour">
+							<img src="images/12.jpg" alt="">
+							<p>礼盒</p>
+							<p>明星小黑瓶肌底礼盒</p>
+							<p>不见年龄 只见年轻</p>
+							<div class="tabText">
+								<span>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+								</span>
+								<span>|</span>
+								<span>￥760</span>
+							</div>
+						</li>
+						<!-- 第三组 -->
+						<li class="tabOne">
+							<img src="images/13.jpg" alt="">
+							<p>礼盒</p>
+							<p>明星小黑瓶肌底礼盒</p>
+							<p>不见年龄 只见年轻</p>
+							<div class="tabText">
+								<span>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+								</span>
+								<span>|</span>
+								<span>￥760</span>
+							</div>
+						</li>
+						<li class="tabTwo">
+							<img src="images/13.jpg" alt="">
+							<p>礼盒</p>
+							<p>明星小黑瓶肌底礼盒</p>
+							<p>不见年龄 只见年轻</p>
+							<div class="tabText">
+								<span>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+								</span>
+								<span>|</span>
+								<span>￥760</span>
+							</div>
+						</li>
+						<li class="tabThree">
+							<img src="images/13.jpg" alt="">
+							<p>礼盒</p>
+							<p>明星小黑瓶肌底礼盒</p>
+							<p>不见年龄 只见年轻</p>
+							<div class="tabText">
+								<span>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+								</span>
+								<span>|</span>
+								<span>￥760</span>
+							</div>
+						</li>
+						<li class="tabFour">
+							<img src="images/13.jpg" alt="">
+							<p>礼盒</p>
+							<p>明星小黑瓶肌底礼盒</p>
+							<p>不见年龄 只见年轻</p>
+							<div class="tabText">
+								<span>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+									<i class='iconfont icon-start'></i>
+								</span>
+								<span>|</span>
+								<span>￥760</span>
+							</div>
+						</li>
+					</ul>
+					<i class='iconfont icon-arrow'></i>
+					<i class='iconfont icon-arrow1'></i>
+				</div>
+				
+					<!-- <div class="tab-pane" id="two">列表页内容。。。</div>
+					<div class="tab-pane" id="three">详细页内容。。。</div> -->
+				
+			</div>
+			<!-- 图一开始 -->
+			<div class="picture">
+				<img src="images/6.jpg" alt="">
+			</div>
+			<!-- 栅格盒子开始 -->
+			<div class="img-box">
+				<div class="imgbox-title">
+					<h3>官网特别服务</h3>
+					<p>SPECIAL SERVICES</p>
+					
+				</div>
+				<ul class="imgbox-content">
+					<li>
+						<img src="images/7.gif" alt="">
+						<h5>双十一幸运抽奖</h5>
+						<p>赢取正装惊喜</p>
+						<button>幸运抽奖</button>
+					</li>
+					<li>
+						<img src="images/8.gif" alt="">
+						<h5>DIY唇膏专属定制</h5>
+						<p>专属刻字</p>
+						<button>立即购买</button>
+					</li>
+					<li>
+						<img src="images/9.jpg" alt="">
+						<h5>在线预约服务</h5>
+						<p>在线预约</p>
+						<button>了解更多</button>
+					</li>
+				</ul>
+	
+			</div>
+			<!-- 图二开始 -->
+			<div class="picture2">
+				<img src="images/10.jpg" alt="">
+			</div>
+			<!-- 查询开始 -->
+			<div class="search">
+				<div class="search-box">
+					<p>我在寻找...</p>
+					<input type="text" placeholder="搜索">
+					<button><i class="iconfont icon-search"></i></button>
+				</div>
+			</div>
+		</div>
+		<!-- 底部开始 -->
+		<div class="lan-footer">
+			<div class="footerOne">
+				<p>&copy;L’Oreal China 欧莱雅（中国）有限公司版权所有</p>
+				<p>
+					<img src="images/15.png" alt="">
+					<a href="#">中国工商</a>
+					<a href="#">沪ICP备08100043号-34 </a>
+				</p>
+				<p>
+					<img src="images/16.png" alt="">
+					<a href="#">沪公网安备 31010602001526号</a>
+				</p>
+			</div>
+			<div class="footerTwo">
+				<ul>
+					<li><a href="#">使用条款</a></li>
+					<li>|</li>
+					<li><a href="#">Cookies政策</a></li>
+					<li>|</li>
+					<li><a href="#">隐私政策</a></li>
+				</ul>
+				<br>
+				<p>浏览该网站表示您接受并同意我们使 用cookies为您提供个性化的浏览体验。点击<a href="#">Cookies政策</a>了解详情</p>
+			</div>
+		</div>
+		<!-- 固定底部nav开始 -->
+		<div class="bottom-nav navbar navbar-default navbar-fixed-bottom" style="background-color: #D51B51;border-style:none;">
+			<div class="container">
+				<div class="navbar-left">
+					<span class="carouselText">
+						臻选星品 双十一美丽加享  买多赠多 至高享5件礼 促销代码：LAJU2
+					</span>
+				</div>
+				<a href="#">了解详细 ></a>
+				<div class="navbar-right">
+					<span>关注我们</span>
+					<i class='iconfont icon-weixin'></i>
+					<i class='iconfont icon-weibo'></i>
+					<a href="#">在线咨询</a>
+					<a href="#">电话咨询</a>
+				</div>
+			</div>
+		</div>
+		<!-- 返回顶部top-->
+		<div class="return">
+			<a href="#top">top <i class='iconfont icon-icon-up'></i></a>
+		</div>
+	</div>
+</body>
+</html>
